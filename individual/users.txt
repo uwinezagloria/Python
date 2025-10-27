@@ -1,0 +1,3 @@
+gloria,dsf
+gogo,"C:\Users\NV TECHNOLOGIES LTD\AppData\Local\Programs\Python\Python313\python.exe" "c:/Users/NV TECHNOLOGIES LTD/Downloads/Python/individual/question4.py"
+gloria,2314
