@@ -24,3 +24,4 @@ print(mod)
 print(abs(-8)) # thi is absolute display 8 
 print(round(2.5))
 print(math.sqrt(2)) #working with math we imported to find square root
+print(complex(20,30)) # complex numbers
