@@ -25,5 +25,28 @@ for i in list:
 print(count)  
 #. Convert List to String we use join method
 string=''.join(list)
-print(string)  
-    
+print(string) 
+list_numbers=[1,2,3,4,5,6,5,3]
+#counting how many 5 are in the list
+print(list_numbers.count(5)) # output:2
+#sorting 
+list_numbers.sort()
+print(list_numbers) # sorted but when we print like print(list_numbers.sort()) it will return none which stands for absence of value so sort return none
+#reversing
+list_numbers.reverse()
+print(list_numbers)
+# checkin if certaun number is in the list
+print(50 in list_numbers) # return False as 50 is not in the list
+#deleting last element in list
+list_numbers.pop()
+#inserting item in list at a cetain index
+list_numbers.insert(2,40)
+print(list_numbers)
+#finding index of certain value
+print(list_numbers.index(5)) # if we have duplicates it will print index of first element to have that index
+# removing dulplicates
+for i in list_numbers:
+    if  list_numbers.count(i)>1:
+        list_numbers.remove(i)
+print(list_numbers)  
+#when you want a list of item and it will not be modified yo ucan use tuple
